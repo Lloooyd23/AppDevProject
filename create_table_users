@@ -1,0 +1,13 @@
+CREATE TABLE users (
+	id int(100) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   	first_name varchar(120) NOT NULL,
+    middle_name varchar(120) NOT NULL,
+    last_name varchar(120) NOT NULL,
+    age int(100) NOT NULL,
+    birthday date NOT NULL,
+    address varchar(120) NOT NULL,
+    username varchar(120) NOT NULL,
+    userpass varchar(120) NOT NULL,
+    email varchar(120) NOT NULL,
+    contact_number int(15) NOT NULL
+);
