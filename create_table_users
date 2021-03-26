@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE user (
 	id int(100) NOT NULL PRIMARY KEY AUTO_INCREMENT,
    	first_name varchar(120) NOT NULL,
     middle_name varchar(120) NOT NULL,
