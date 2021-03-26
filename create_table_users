@@ -3,7 +3,7 @@ CREATE TABLE users (
    	first_name varchar(120) NOT NULL,
     middle_name varchar(120) NOT NULL,
     last_name varchar(120) NOT NULL,
-    age int(100) NOT NULL,
+    age varchar(50) NOT NULL,
     birthday date NOT NULL,
     address varchar(120) NOT NULL,
     username varchar(120) NOT NULL,
